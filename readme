@@ -1,3 +1,6 @@
+The current version supports Vicuna-7B and LLaMA2-7B as the language model. Need to prepare Vicuna-v0 7B weights and and prepare LLaMA-2-Chat 7B weights.
+
+Then modify the llama_model in the configs/models/cheetah_vicuna.yaml to the folder that contains Vicuna weights and modify the llama_model in the configs/models/cheetah_llama2.yaml to the folder that contains LLaMA2 weights.
 The pth model can be download in following link
 https://drive.google.com/file/d/1vhGzpFMNHw9OCql34HTc0dGAU8a0VT57/view?usp=sharing
 For the checkpoint aligned with Vicuna 7B, please set the path to the pretrained checkpoint in the evaluation config file in eval_configs/cheetah_eval_vicuna.yaml at Line 10.
