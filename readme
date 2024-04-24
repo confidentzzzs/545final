@@ -1,2 +1,4 @@
 The pth model can be download in following link
 https://drive.google.com/file/d/1vhGzpFMNHw9OCql34HTc0dGAU8a0VT57/view?usp=sharing
+For the checkpoint aligned with Vicuna 7B, please set the path to the pretrained checkpoint in the evaluation config file in eval_configs/cheetah_eval_vicuna.yaml at Line 10.
+For the checkpoint aligned with LLaMA2 7B, please set the path to the pretrained checkpoint in the evaluation config file in eval_configs/cheetah_eval_llama2.yaml at Line 10.
